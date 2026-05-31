@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROSENG — Hesabınızı Silin</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           max-width: 800px; margin: 0 auto; padding: 24px 16px; color: #1a1a1a; line-height: 1.7; }
+    h1 { color: #1a7a4a; }
+    h2 { color: #1a7a4a; margin-top: 32px; }
+    a  { color: #1a7a4a; }
+    .updated { color: #666; font-size: 0.9em; }
+    .box { background: #f7f9fc; border-left: 4px solid #1a7a4a; padding: 16px 20px;
+           margin: 24px 0; border-radius: 4px; }
+    .box-warn { background: #fff7e6; border-left-color: #d97706; }
+    .step { background: #fff; border: 1px solid #e5e7eb; padding: 16px 20px;
+            margin: 12px 0; border-radius: 8px; }
+    .step-num { display: inline-block; width: 28px; height: 28px; line-height: 28px;
+                text-align: center; background: #1a7a4a; color: #fff; border-radius: 50%;
+                font-weight: 700; margin-right: 8px; }
+    code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px;
+           font-family: 'SF Mono', Monaco, monospace; font-size: 0.92em; }
+    .email-btn { display: inline-block; background: #1a7a4a; color: #fff;
+                 padding: 12px 24px; border-radius: 8px; text-decoration: none;
+                 font-weight: 600; margin: 12px 0; }
+    .email-btn:hover { background: #166a40; }
+  </style>
+</head>
+<body>
+  <h1>ROSENG — Hesabınızı Silin</h1>
+  <p class="updated">Son güncelleme: Mayıs 2026</p>
+
+  <p>
+    ROSENG hesabınızı ve hesabınızla ilişkili tüm verileri silme hakkına
+    sahipsiniz. Bu sayfa, bu işlemi nasıl gerçekleştireceğinizi adım adım açıklar.
+  </p>
+
+  <h2>Hangi veriler silinir?</h2>
+  <div class="box">
+    <p>Hesabınızı sildiğinizde aşağıdaki <strong>tüm verileriniz kalıcı olarak silinir</strong>:</p>
+    <ul>
+      <li>E-posta adresi, ad/soyad ve profil fotoğrafı</li>
+      <li>Oluşturduğunuz kelime listeleri ve içerikleri</li>
+      <li>Kelime öğrenme ilerlemeniz (FSRS verileri, oturum geçmişi)</li>
+      <li>Notlar ve özel işaretlemeler</li>
+      <li>Sosyal veriler (takipçi/takip ilişkileri)</li>
+      <li>Push bildirim token'ı (FCM)</li>
+      <li>Hesap meta verileri (oluşturma tarihi, son giriş, vb.)</li>
+    </ul>
+  </div>
+
+  <div class="box box-warn">
+    <strong>⚠️ Dikkat:</strong> Hesap silme işlemi <strong>geri alınamaz</strong>.
+    Silinen veriler kurtarılamaz. İşlem yapmadan önce verilerinizi yedeklemenizi öneririz.
+  </div>
+
+  <h2>Hesabınızı nasıl silersiniz?</h2>
+
+  <div class="step">
+    <span class="step-num">1</span>
+    <strong>E-posta gönderin</strong>
+    <p style="margin: 8px 0 0;">
+      Hesabınızla ilişkili e-posta adresinden aşağıdaki adrese bir e-posta gönderin:
+    </p>
+    <a href="mailto:support@improsapps.com?subject=ROSENG%20Hesap%20Silme%20Talebi&amp;body=Merhaba%2C%0A%0AROSENG%20hesab%C4%B1m%C4%B1n%20ve%20t%C3%BCm%20verilerimin%20silinmesini%20talep%20ediyorum.%0A%0AHesap%20e-postas%C4%B1%3A%20%5BE-posta%20adresinizi%20yaz%C4%B1n%5D%0AKullan%C4%B1c%C4%B1%20ad%C4%B1%2FAd%C4%B1m%3A%20%5BVarsa%20yaz%C4%B1n%5D%0A%0ATe%C5%9Fekk%C3%BCrler."
+       class="email-btn">📧 support@improsapps.com</a>
+    <p style="margin: 8px 0 0; font-size: 0.92em; color: #666;">
+      Konu: <code>ROSENG Hesap Silme Talebi</code>
+    </p>
+  </div>
+
+  <div class="step">
+    <span class="step-num">2</span>
+    <strong>Kimliğinizi doğrulayalım</strong>
+    <p style="margin: 8px 0 0;">
+      E-postanızda lütfen aşağıdakileri belirtin:
+    </p>
+    <ul style="margin: 8px 0 0;">
+      <li>Hesabınızla ilişkili e-posta adresi</li>
+      <li>Kullanıcı adınız veya profilinizdeki adınız (varsa)</li>
+    </ul>
+    <p style="margin: 8px 0 0; font-size: 0.92em; color: #666;">
+      Güvenlik için, talebin sizin tarafınızdan yapıldığını doğrulamak amacıyla
+      kayıtlı e-posta adresinizden gelmesi gerekir.
+    </p>
+  </div>
+
+  <div class="step">
+    <span class="step-num">3</span>
+    <strong>7 gün içinde silinir</strong>
+    <p style="margin: 8px 0 0;">
+      Talebinizi aldıktan sonra <strong>7 takvim günü içinde</strong> tüm
+      verileriniz kalıcı olarak silinir. İşlem tamamlandığında onay e-postası gönderilir.
+    </p>
+  </div>
+
+  <h2>Saklama süreleri ve yasal istisnalar</h2>
+  <p>
+    Aşağıdaki sınırlı bilgiler, yasal yükümlülüklerimiz nedeniyle silmeden önce
+    kısa süre tutulabilir:
+  </p>
+  <ul>
+    <li><strong>Sunucu erişim logları:</strong> 30 gün (güvenlik amacıyla)</li>
+    <li><strong>Yedeklemeler:</strong> En fazla 30 gün (sonra otomatik olarak temizlenir)</li>
+    <li><strong>Vergi/yasal kayıtlar:</strong> Yalnızca bir ödeme yaptıysanız (sizin durumunuzda yok — uygulama ücretsiz)</li>
+  </ul>
+
+  <h2>Kısmi veri silme</h2>
+  <p>
+    Tüm hesabınızı silmek yerine sadece belirli verileri kaldırmak isterseniz:
+  </p>
+  <ul>
+    <li><strong>Kelime listeleri:</strong> Uygulama içinde "Listelerim" sekmesinden tek tek silebilirsiniz.</li>
+    <li><strong>Notlar:</strong> Kelime kartı detayından düzenleyip kaldırabilirsiniz.</li>
+    <li><strong>Sosyal takip:</strong> Sosyal sekmesinden takipten çıkabilirsiniz.</li>
+    <li><strong>Push bildirimler:</strong> Cihazınızın ayarlarından kapatabilirsiniz.</li>
+  </ul>
+
+  <h2>Sorularınız?</h2>
+  <p>
+    Hesap silme süreciyle ilgili herhangi bir sorunuz olursa, bize ulaşın:
+    <a href="mailto:support@improsapps.com">support@improsapps.com</a>
+  </p>
+
+  <hr style="margin: 40px 0; border: none; border-top: 1px solid #e5e7eb;">
+  <p style="text-align: center; color: #666; font-size: 0.9em;">
+    <a href="privacy.html">Gizlilik Politikası</a> ·
+    <a href="terms.html">Kullanım Şartları</a> ·
+    <a href="https://improsapps.com">improsapps.com</a>
+  </p>
+</body>
+</html>
